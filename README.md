@@ -6,6 +6,9 @@ Deep learning/ML lessons for medical images.
 
 ## How to run on Colab 
 
+## Disclaimer about medical data 
+
+## *WHAT ELSE?* 
 ---
 
 &copy; 2018 MD.ai, Inc.
