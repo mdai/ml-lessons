@@ -66,7 +66,7 @@ def train(config, name, images, masks):
         TensorBoard(log_dir=tensorboard_log_dir)
     ]
 
-    history = model.fit_generator(train_generator, epochs=20,
+    history = model.fit_generator(train_generator, epochs=1000,
                         steps_per_epoch=train_steps_per_epoch,
                         validation_data=val_generator,
                         validation_steps=val_steps_per_epoch,

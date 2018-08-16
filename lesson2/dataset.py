@@ -9,6 +9,13 @@ from keras.preprocessing.image import ImageDataGenerator
 import mdai
 import cv2
 
+
+def resize_img(img, img_size): 
+    
+    
+    
+    return img 
+
 def load_images(imgs_anns_dict, img_size = 128): 
     #images = np.zeros((img_height, img_width, count), dtype=np.uint8)
     #mask = np.zeros((img_height, img_width, count), dtype=np.uint8)
