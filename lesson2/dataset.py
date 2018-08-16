@@ -9,13 +9,6 @@ from keras.preprocessing.image import ImageDataGenerator
 import mdai
 import cv2
 
-
-def resize_img(img, img_size): 
-    
-    
-    
-    return img 
-
 def load_images(imgs_anns_dict, img_size = 128): 
     #images = np.zeros((img_height, img_width, count), dtype=np.uint8)
     #mask = np.zeros((img_height, img_width, count), dtype=np.uint8)
@@ -29,6 +22,8 @@ def load_images(imgs_anns_dict, img_size = 128):
         img_height = img.shape[0]
     
         mask = np.zeros((img_height, img_width), dtype=np.uint8) 
+        
+        assert img.shape == mask.shape
         
         for a in ann:     
             vertices = np.array(a['data']['vertices'])
@@ -45,8 +40,10 @@ def load_images(imgs_anns_dict, img_size = 128):
         else:
             resized_shape = (round(img_size * img.shape[0] / img.shape[1]), img_size)
             offset = ((img_size - resized_shape[0]) // 2, 0)
-        img_resized = imresize(img, resized_shape, interp='lanczos').astype(np.uint8)
-        mask_resized = imresize(mask, resized_shape, interp='lanczos').astype(np.bool)
+            
+        resized_shape_cv2_convention = (resized_shape[1], resized_shape[0])
+        img_resized = cv2.resize(img, resized_shape_cv2_convention).astype(np.uint8)
+        mask_resized = cv2.resize(mask, resized_shape_cv2_convention).astype(np.bool)
 
         # add padding to square
         img_padded = np.zeros((img_size, img_size), dtype=np.uint8)
