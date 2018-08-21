@@ -2,9 +2,9 @@
 
 Introductory Deep learning/ML lessons for medical images by [MD.ai](https://www.md.ai). 
 
-Lesson 1. Classification of chest vs. adominal X-rays using TensorFlow/Keras. 
-Lesson 2. Lung X-Rays Semantic Segmentation using UNets. 
-Lesson 3. RSNA Pneumonia detection. 
+- Lesson 1. Classification of chest vs. adominal X-rays using TensorFlow/Keras. 
+- Lesson 2. Lung X-Rays Semantic Segmentation using UNets. 
+- Lesson 3. RSNA Pneumonia detection. 
 
 ## How to run on Colab 
 
