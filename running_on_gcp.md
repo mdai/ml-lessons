@@ -43,7 +43,8 @@ gcloud compute ssh $MY_GCP_INSTANCE_NAME -- -L 8080:localhost:8080 -L 6006:local
 
 Now you can open your browser on your local machine on http://localhost:8080 for JupyterLab and run the jupyter notebooks.
 
-## Clone ml-lessons repo from github
+## Clone ml-lessons repo from github on instance 
+While on the GCP GCE instance, 
 - Change directory to /opt/deeplearning/workspace
 - Then, git clone ml-lessons repo
 ```sh
