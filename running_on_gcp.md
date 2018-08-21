@@ -1,9 +1,9 @@
-## Using Deep Learning Image for Google Cloud Engine (with GCP credits)
+## Using Deep Learning Image for Google Cloud Engine
 
 The Deep Learning images are VMs with pre-installed deep learning frameworks,
 including TensorFlow, Keras, PyTorch, etc. You can read more [here.](https://blog.kovalevskyi.com/deep-learning-images-for-google-cloud-engine-the-definitive-guide-bc74f5fb02bc)
 
-Before you start, you should have [GCP gcloud CLI installed on your local machine.](https://cloud.google.com/sdk/).
+Before you start, you should have [GCP gcloud CLI installed on your local machine.](https://cloud.google.com/sdk/)
 
 After gcloud CLI is setup, you can use your GCP credits to launch the Deep learning
 images. For gcloud setup instructions, see [link.](https://cloud.google.com/sdk/docs/quickstarts)
