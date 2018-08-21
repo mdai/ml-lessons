@@ -8,12 +8,13 @@ Lesson 3. RSNA Pneumonia detection.
 
 ## How to run on Colab 
 
-[Colab](https://colab.research.google.com/) -> File->Open Notebook, Select Github tab, and paste the url of a lesson, 
+[Colab](https://colab.research.google.com/) -> File->Open Notebook, Select Github tab, and paste the url of a lesson, use 
 i.e., https://github.com/mdai/ml-lessons/blob/master/lesson1-xray-images-classification.ipynb for lesson 1. 
 
 [Colab tips](https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html)
 
 ## Advanced: How to run on Google Cloud Platform with Deep Learning Images 
+
 [GCP Deep Learnings Images How To](running_on_gcp.md)
 ---
 
