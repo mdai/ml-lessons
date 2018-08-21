@@ -60,3 +60,10 @@ is. For lesson3, it should be in `/opt/deeplearning/workspace/ml-lessons/logs`.
 tensorboard --logdir logs --port=6006 &
 ```
 Now, go to http://localhost:6006 for Tensorboard.
+
+## Copy from remote instance to local 
+Substitute commandline variables for actual values.
+
+```sh
+gcloud compute --project $MY_GCP_PROJECT_NAME scp --zone $MY_GCP_ZONE $MY_GCP_INSTANCE_NAME:$FILE_NAME . 
+```
