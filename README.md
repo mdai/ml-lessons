@@ -13,9 +13,10 @@ Introductory Deep learning/ML lessons for medical images by [MD.ai](https://www.
 
 [Colab tips](https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html)
 
-## Advanced: How to run on Google Cloud Platform with Deep Learning Images 
+## Advanced: How to run on Google Cloud Platform with Deep Learning Images
 
 [GCP Deep Learnings Images How To](running_on_gcp.md)
+
 ---
 
 &copy; 2018 MD.ai, Inc.
