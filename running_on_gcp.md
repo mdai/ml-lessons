@@ -1,7 +1,11 @@
 ## Using Deep Learning Image for Google Cloud Engine
 
 The Deep Learning images are VMs with pre-installed deep learning frameworks,
-including TensorFlow, Keras, PyTorch, etc. You can read more [here.](https://blog.kovalevskyi.com/deep-learning-images-for-google-cloud-engine-the-definitive-guide-bc74f5fb02bc)
+including TensorFlow, Keras, PyTorch, and core deep learing python packages. 
+It also includes Jupyter environments for prototyping. You can choose either 
+CPU or GPU images. For training, GPU images are recommended. 
+
+You can read more [here.](https://blog.kovalevskyi.com/deep-learning-images-for-google-cloud-engine-the-definitive-guide-bc74f5fb02bc)
 
 Before you start, you should have [GCP gcloud CLI installed on your local machine.](https://cloud.google.com/sdk/)
 
@@ -10,7 +14,7 @@ images. For gcloud setup instructions, see [link.](https://cloud.google.com/sdk/
 
 ## Create instance
 You can change any of the following `MY_GCP_XXXX` parameters to suit your needs.
-For example, `MY_GCP_ZONE` should be set to the GCP zone closest to you.
+For example, `MY_GCP_ZONE` should be set to the GCP zone near you.
 
 ```sh
 MY_GCP_IMAGE_FAMILY="tf-latest-cu92" # or put any required
@@ -25,6 +29,7 @@ gcloud compute instances create $MY_GCP_INSTANCE_NAME \
         --maintenance-policy=TERMINATE \
         --accelerator=$MY_GCP_ACCEL \
         --machine-type=$MY_GCP_INSTANCE_TYPE \
+        --boot-disk-size=120GB \
         --metadata='install-nvidia-driver=True'
 ```
 
