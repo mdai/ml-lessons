@@ -19,5 +19,5 @@ Introductory Deep learning/ML lessons for medical images by [MD.ai](https://www.
 
 ---
 
-&copy; 2018 MD.ai, Inc.
+&copy; 2018 MD.ai, Inc.  
 Licensed under the Apache License, Version 2.0
