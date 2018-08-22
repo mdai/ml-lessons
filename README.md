@@ -17,7 +17,7 @@ The MD.ai annotator is used to view the DICOM images, and to create the image le
 ![MD.ai Annotator](/images/annotator.png)
 
 ## Colab Tips 
-In order to use the GPU, in the menu, go to Runtime -> Change runtime type -> switch to Python 3, and turn on GPU.**  
+In order to use the GPU, in the menu, go to Runtime -> Change runtime type -> switch to Python 3, and turn on GPU.  
 [Colab tips](https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html)
 
 ## Advanced: How to run on Google Cloud Platform with Deep Learning Images
