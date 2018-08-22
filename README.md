@@ -13,6 +13,10 @@ Introductory Deep learning/ML lessons for medical images by [MD.ai](https://www.
 
 ## MD.ai Annotator 
 The MD.ai annotator is used to view the DICOM images, and to create the image level annotation. The MD.ai python client library is then used to download images and annotations, prepare the datasets, then are then used to train the model for classification. 
+- MD.ai Annotator example URL: https://public.md.ai/annotator/project/aGq4k6NW/workspace
+- MD.ai python client libray URL: https://github.com/mdai/mdai-client-py
+- MD.ai documentation URL: https://docs.md.ai/
+
 
 ![MD.ai Annotator](/images/annotator.png)
 
