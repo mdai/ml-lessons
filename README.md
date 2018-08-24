@@ -1,6 +1,4 @@
-# ml-lessons
-
-Introductory Deep learning/ML lessons for medical images by [MD.ai](https://www.md.ai). They can be run on Google's Colab Jupyter notebook server, using the GPU, for free! 
+# Introductory Deep learning/ML lessons for medical images by [MD.ai](https://www.md.ai).
 
 **Note that the mdai client requires an access token, which authenticates you as the user. To create a new token or select an existing token, navigate to the "Personal Access Tokens" tab on your user settings page at the specified MD.ai domain (e.g., public.md.ai).**
 
@@ -23,6 +21,8 @@ The MD.ai annotator is used to view the DICOM images, and to create the image le
 ![MD.ai Annotator](/images/annotator.png)
 
 ## Colab Tips 
+They can be run on Google's Colab Jupyter notebook server, using the GPU, for free! Just go to colab's website, and enter a notebook's github URL. 
+
 In order to use the GPU, in the menu, go to Runtime -> Change runtime type -> switch to Python 3, and turn on GPU.  
 [Colab tips](https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html)
 
