@@ -1,6 +1,6 @@
-# Introductory Deep learning/ML lessons for medical images by [MD.ai](https://www.md.ai).
+# Introductory lessons to Deep Learning for medical imaging by [MD.ai](https://www.md.ai). 
 
-**Note that the mdai client requires an access token, which authenticates you as the user. To create a new token or select an existing token, navigate to the "Personal Access Tokens" tab on your user settings page at the specified MD.ai domain (e.g., public.md.ai).**
+The following are few Jupyter notebooks covers the basics of parsing annotation data (using our annotator or Kaggle competition data formats), training several different deep learning models for classification, semantic and instance segmentation and object detection problems in the medical imaging domain.  
 
 - Lesson 1. Classification of chest vs. adominal X-rays using TensorFlow/Keras [Github](https://github.com/mdai/ml-lessons/blob/master/lesson1-xray-images-classification.ipynb) [Annotator](https://public.md.ai/annotator/project/PVq9raBJ)
 
@@ -11,20 +11,22 @@
   
 - Lesson 3. RSNA Pneumonia detection using MD.ai python client library [Github](https://github.com/mdai/ml-lessons/blob/master/lesson3-rsna-pneumonia-detection-mdai-client-lib.ipynb) [Annotator](https://public.md.ai/annotator/project/LxR6zdR2/workspace)
 
-## MD.ai Annotator 
+*Note that the mdai client requires an access token, which authenticates you as the user. To create a new token or select an existing token, navigate to the "Personal Access Tokens" tab on your user settings page at the specified MD.ai domain (e.g., public.md.ai).*
+
+## The MD.ai Annotator 
 The MD.ai annotator is used to view the DICOM images, and to create the image level annotation. The MD.ai python client library is then used to download images and annotations, prepare the datasets, then are then used to train the model for classification. 
-- MD.ai Annotator example URL: https://public.md.ai/annotator/project/aGq4k6NW/workspace
+- MD.ai Annotator Example Project URL: https://public.md.ai/annotator/project/aGq4k6NW/workspace
 - MD.ai python client libray URL: https://github.com/mdai/mdai-client-py
 - MD.ai documentation URL: https://docs.md.ai/
 
-
 ![MD.ai Annotator](/images/annotator.png)
 
-## Colab Tips 
-They can be run on Google's Colab Jupyter notebook server, using the GPU, for free! Just go to colab's website, and enter a notebook's github URL. 
+## Running Jupyter notebooks Colab  
 
-In order to use the GPU, in the menu, go to Runtime -> Change runtime type -> switch to Python 3, and turn on GPU.  
-[Colab tips](https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html)
+It’s easy to create run a Jupyter notebook on Google's Colab with free GPU use (time limited). 
+Just add your Github path to https://colab.research.google.com/notebook, select "GITHUB" tab, and enter the following lesson 1 URL: https://github.com/mdai/ml-lessons/blob/master/lesson1-xray-images-classification.ipynb. 
+
+And in order to use the GPU, in the notebook menu, go to Runtime -> Change runtime type -> switch to Python 3, and turn on GPU.  See more [Colab tips](https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html)
 
 ## Advanced: How to run on Google Cloud Platform with Deep Learning Images
 
