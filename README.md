@@ -19,7 +19,7 @@ The MD.ai annotator a web-base tool is used to store and view anonymized medical
 - MD.ai Annotator Example Project URL: https://public.md.ai/annotator/project/aGq4k6NW/workspace
 - MD.ai python client libray URL: https://github.com/mdai/mdai-client-py
 
-![MD.ai Annotator](/images/annotator.png)
+![MD.ai Annotator](https://docs.md.ai/img/annotator_homepage.png)
 
 ## Running Jupyter notebooks Colab  
 
