@@ -27,6 +27,8 @@ And in order to use the GPU, in the notebook menu, go to Runtime -> Change runti
 
 ## Advanced: How to run on Google Cloud Platform with Deep Learning Images
 
+You can also run the notebook with powerful GPUs on the Google Cloud Platform. In this case, you need to authenticate to the Google Cloug Platform, create a private virtual machine instance running Google's Deep Learning images, and import the lessons. See instructions below. 
+
 [GCP Deep Learnings Images How To](running_on_gcp.md)
 
 ---
