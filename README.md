@@ -8,7 +8,7 @@ The following are few Jupyter notebooks covers the basics of parsing annotation 
 - Lesson 3. RSNA Pneumonia detection using Kaggle data format [Github](https://github.com/mdai/ml-lessons/blob/master/lesson3-rsna-pneumonia-detection-kaggle.ipynb) [Annotator](https://public.md.ai/annotator/project/LxR6zdR2/workspace) 
 - Lesson 3. RSNA Pneumonia detection using MD.ai python client library [Github](https://github.com/mdai/ml-lessons/blob/master/lesson3-rsna-pneumonia-detection-mdai-client-lib.ipynb) [Annotator](https://public.md.ai/annotator/project/LxR6zdR2/workspace)
 
-*Note that the mdai client requires an access token, which authenticates you as the user. To create a new token or select an existing token, navigate to the "Personal Access Tokens" tab on your user settings page at the specified MD.ai domain (e.g., public.md.ai).*
+*Note that the mdai client requires an access token, which authenticates you as the user. To create a new token or select an existing token, to go a specific MD.ai domain (e.g., public.md.ai), register, then navigate to the "Personal Access Tokens" tab on your user settings page to create and obtain your access token.*
 
 ## The MD.ai Annotator 
 The MD.ai annotator is a web based appplication, to store and view anonymized medical images (e.g, DICOM) on the cloud, create annotations collaboratively, in real-time, and export annotations, images and labels for training. The MD.ai python client library can be used to download images and annotations, prepare the datasets, and then used to train and evaluate deep learning models. Further documentation and videos are available at https://docs.md.ai/
