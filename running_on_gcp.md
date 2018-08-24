@@ -35,7 +35,7 @@ gcloud compute instances create $MY_GCP_INSTANCE_NAME \
 
 ## Connect to instance
 ```sh
-# connect to instance
+# Gcloud SSH connection and port forwarding to localhost 
 # forward port 8080 for JupterLab
 # forward port 6006 for tensorboard (default port)
 gcloud compute ssh $MY_GCP_INSTANCE_NAME -- -L 8080:localhost:8080 -L 6006:localhost:6006
