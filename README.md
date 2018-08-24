@@ -21,7 +21,7 @@ The MD.ai annotator is a web based appplication, to store and view anonymized me
 ## Running Jupyter notebooks Colab  
 
 It’s easy to create run a Jupyter notebook on Google's Colab with free GPU use (time limited). 
-Just add your Github path to https://colab.research.google.com/notebook, select "GITHUB" tab, and enter the following lesson 1 URL: https://github.com/mdai/ml-lessons/blob/master/lesson1-xray-images-classification.ipynb. 
+Just add the Github jupyter notebook path to https://colab.research.google.com/notebook: select the "GITHUB" tab, and add the Lesson 1 URL: https://github.com/mdai/ml-lessons/blob/master/lesson1-xray-images-classification.ipynb
 
 And in order to use the GPU, in the notebook menu, go to Runtime -> Change runtime type -> switch to Python 3, and turn on GPU.  See more [Colab tips](https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html)
 
