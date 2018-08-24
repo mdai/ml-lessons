@@ -1,4 +1,4 @@
-# Introductory lessons to Deep Learning for medical imaging by [MD.ai](https://www.md.ai). 
+# Introductory lessons to Deep Learning for medical imaging by [MD.ai](https://www.md.ai)
 
 The following are few Jupyter notebooks covers the basics of parsing annotation data (using our annotator or Kaggle competition data formats), training several different deep learning models for classification, semantic and instance segmentation and object detection problems in the medical imaging domain.  
 
