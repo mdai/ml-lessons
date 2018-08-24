@@ -14,7 +14,7 @@ The following are few Jupyter notebooks covers the basics of parsing annotation 
 *Note that the mdai client requires an access token, which authenticates you as the user. To create a new token or select an existing token, navigate to the "Personal Access Tokens" tab on your user settings page at the specified MD.ai domain (e.g., public.md.ai).*
 
 ## The MD.ai Annotator 
-The MD.ai annotator a web-base tool is used to store and view anonymized medical images (e.g, DICOM) on the cloud, create annotations collaboratively, in real-time, and export annotations, images and labels for training. The MD.ai python client library can be used to download images and annotations, prepare the datasets, and then used to train and evaluate deep learning models. Further documentation and videos are available at https://docs.md.ai/
+The MD.ai annotator is a web based appplication, to store and view anonymized medical images (e.g, DICOM) on the cloud, create annotations collaboratively, in real-time, and export annotations, images and labels for training. The MD.ai python client library can be used to download images and annotations, prepare the datasets, and then used to train and evaluate deep learning models. Further documentation and videos are available at https://docs.md.ai/
 
 - MD.ai Annotator Example Project URL: https://public.md.ai/annotator/project/aGq4k6NW/workspace
 - MD.ai python client libray URL: https://github.com/mdai/mdai-client-py
