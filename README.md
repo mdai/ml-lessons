@@ -3,7 +3,7 @@
 The following are several Jupyter notebooks covering the basics of downloading and parsing annotation data, and training and evaluating different deep learning models for classification, semantic and instance segmentation and object detection problems in the medical imaging domain. The notebooks can be run on Google's colab with GPU (see instruction below).  
 
 - Lesson 1. Classification of chest vs. adominal X-rays using TensorFlow/Keras [Github](https://github.com/mdai/ml-lessons/blob/master/lesson1-xray-images-classification.ipynb) | [Annotator](https://public.md.ai/annotator/project/PVq9raBJ)
-- Lesson 2. Lung X-Rays Semantic Segmentation using UNets. | [Github](https://github.com/mdai/ml-lessons/blob/master/lesson2-lung-xrays-segmentation.ipynb)
+- Lesson 2. Lung X-Rays Semantic Segmentation using UNets. [Github](https://github.com/mdai/ml-lessons/blob/master/lesson2-lung-xrays-segmentation.ipynb) |
 [Annotator](https://public.md.ai/annotator/project/aGq4k6NW/workspace) 
 - Lesson 3. RSNA Pneumonia detection using Kaggle data format [Github](https://github.com/mdai/ml-lessons/blob/master/lesson3-rsna-pneumonia-detection-kaggle.ipynb) | [Annotator](https://public.md.ai/annotator/project/LxR6zdR2/workspace) 
 - Lesson 3. RSNA Pneumonia detection using MD.ai python client library [Github](https://github.com/mdai/ml-lessons/blob/master/lesson3-rsna-pneumonia-detection-mdai-client-lib.ipynb) | [Annotator](https://public.md.ai/annotator/project/LxR6zdR2/workspace)
